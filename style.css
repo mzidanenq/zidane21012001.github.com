@@ -1,9 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+    background: whitesmoke;
 }
 #welcome {
     padding: 50px;
+    background-image: linear-gradient(45deg, #ff7675, #fdcb6e,#ffeaa7,#55efc4,#81ecec,#a29bfe,#6c5ce7);
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+#welcome p {
+    color: black;
 }
 .profile {
     margin: 20px 0;
@@ -25,7 +32,7 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 60px grey;
     bottom: -200px;
-    background-color:whitesmoke;
+    background-color:white;
 }
 
 .luntur {
@@ -58,4 +65,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+.sosmed {
+    width: 50px;
 }
